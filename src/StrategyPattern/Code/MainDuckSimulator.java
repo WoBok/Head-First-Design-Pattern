@@ -1,4 +1,4 @@
-package StrategyPattern;
+package StrategyPattern.Code;
 
 public class MainDuckSimulator {
     public static void main(String[] args) {

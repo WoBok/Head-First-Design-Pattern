@@ -1,4 +1,4 @@
-package StrategyPattern;
+package StrategyPattern.Code;
 
 public class MallardDuck extends Duck {
     public MallardDuck() {
