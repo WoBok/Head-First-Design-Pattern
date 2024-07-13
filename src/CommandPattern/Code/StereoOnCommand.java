@@ -8,8 +8,14 @@ public class StereoOnCommand implements Command {
     }
 
     @Override
-    public void Exeture() {
+    public void Execute() {
         stereo.On();
         stereo.OpenLight();
+    }
+
+    @Override
+    public void Undo() {
+        stereo.Off();
+        stereo.CloseLight();
     }
 }

@@ -8,7 +8,12 @@ public class LightOnCommand implements Command {
     }
 
     @Override
-    public void Exeture() {
+    public void Execute() {
         light.On();
+    }
+
+    @Override
+    public void Undo() {
+        light.Off();
     }
 }

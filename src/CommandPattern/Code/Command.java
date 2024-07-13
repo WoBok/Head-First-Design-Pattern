@@ -1,5 +1,7 @@
 package CommandPattern.Code;
 
 public interface Command {
-    public void Exeture();
+    public void Execute();
+
+    public void Undo();
 }

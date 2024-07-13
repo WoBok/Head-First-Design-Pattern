@@ -8,8 +8,13 @@ public class AirconditionOnCommand implements Command {
     }
 
     @Override
-    public void Exeture() {
+    public void Execute() {
         aircondition.On();
         aircondition.SetTemperature(26);
+    }
+
+    @Override
+    public void Undo() {
+        aircondition.Off();
     }
 }

@@ -10,9 +10,13 @@ public class CustomRemoteTest {
         while (true) {
             var id = scanner.nextInt();
             switch (id) {
+                case 0:
+                    customRemote.PressUndoButton();
+                    break;
                 case 1:
                 case 2:
                 case 3:
+                case 4:
                     customRemote.PressButton(id);
                     break;
                 default:
